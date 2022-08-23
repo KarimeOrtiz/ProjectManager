@@ -16,6 +16,10 @@ function toggleImportant(){
     }
 }
 
+function hide(){
+    document.getElementById("#form").className = "hide";
+}
+
 function init(){
     console.log("Task Manager page!");
     $("#iImportant").click(toggleImportant);
