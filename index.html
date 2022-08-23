@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Task Manager</title>
+</head>
+<body>
+
+    <h1>My Super Awesome Task Manager 📝</h1>
+
+    <main class="main-container">
+        <section class="sec-list">
+            <h3>List</h3>
+        </section>
+
+        <section class="sec-form">
+            <h3>Task information</h3>
+
+            <div class="my-control">
+                <label>Important</label>
+                <!--<i class="fa-solid fa-star"></i>-->
+                <i id="iImportant" class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="my-control">
+                <label>Title</label>
+                <input type="text">
+            </div>
+
+            <div class="my-control">
+                <label>Description</label>
+                <textarea rows="3"></textarea>
+            </div>
+
+            <div class="my-control">
+                <label>Due Date</label>
+                <input type="datetime-local">
+            </div>
+
+            <div class="my-control">
+                <label>Color</label>
+                <input type="color">
+            </div>
+
+            <div class="my-control">
+                <label>Emoji</label>
+                <input type="text">
+            </div>
+
+            <div class="my-control">
+                <label>Location</label>
+                <input type="text">
+            </div>
+
+            <div class="my-control">
+                <label>Status</label>
+                <select>
+                    <option>New</option>
+                    <option>In Progress</option>
+                    <option>Blocked</option>
+                    <option>Paused</option>
+                    <option>Removed</option>
+                    <option>Done</option>
+                </select>
+            </div>
+
+            <div class="my-control">
+                <label>Notification</label>
+                <input type="checkbox">
+            </div>
+        </section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
